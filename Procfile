@@ -1,1 +1,1 @@
-web: gunicorn hello:core --preload
+web: gunicorn core.wsgi
