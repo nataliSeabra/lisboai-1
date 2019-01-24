@@ -1,2 +1,2 @@
-web: gunicorn lisboai.core.wsgi
+web: gunicorn lisboai.wsgi
 
