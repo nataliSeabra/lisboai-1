@@ -38,6 +38,9 @@ class Article(models.Model):
     def __unicode__(self): 
         return (self.short_description)
 
+    def __str__(self):
+        return self.short_description      
+
 
 class Social(models.Model):
 
