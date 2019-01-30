@@ -13,6 +13,7 @@ ACTIVE_CHOICES = (
     ('d', 'Inativo'),    
 )
 
+
 class Categories(models.Model):
 
     name = models.CharField(max_length=100)
