@@ -41,7 +41,7 @@ class Article(models.Model):
 class Social(models.Model):
 
     name = models.CharField(max_length=100)
-    link = models.URLField(max_length=200,null=True, blank=True)
+    link = models.URLField(max_length=200, blank=True)
 
     def __unicode__(self): 
         return (self.name)
