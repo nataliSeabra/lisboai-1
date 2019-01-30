@@ -27,7 +27,6 @@ class Categories(models.Model):
         return self.name    
     
 
-
 class Article(models.Model):
 
     categories = models.ForeignKey('Categories',on_delete=False)
