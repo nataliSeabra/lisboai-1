@@ -41,7 +41,7 @@ class Article(models.Model):
     def __str__(self):
         return self.short_description      
 
-
+"""
 class Social(models.Model):
 
     name = models.CharField(max_length=100)
@@ -49,3 +49,4 @@ class Social(models.Model):
 
     def __unicode__(self): 
         return (self.name)
+"""
