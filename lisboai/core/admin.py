@@ -1,5 +1,5 @@
 from django.contrib import admin
-from lisboai.core.models import Categories,Article
+from lisboai.core.models import Categories,Article,Social
 
 
 # Register your models here.
@@ -17,9 +17,8 @@ class ArticleAdmin(admin.ModelAdmin):
     list_display = ('categories', 'short_description','state')
 admin.site.register(Article, ArticleAdmin)
 
-"""
 class SocialAdmin(admin.ModelAdmin):
     fields = ('name', 'link')
     list_display = ('name', 'link')
 admin.site.register(Social, SocialAdmin)
-""" 
+ 
